@@ -1,0 +1,19 @@
+### key value pair
+"apple" : "i am a red fruit"
+1164 : "this is my roll number"
+---
+{apple : "red fruit", roll number : 1164}
+---
+### lists
+ - kolkata
+ - mumbai
+ - delhi
+ - bangalore
+---
+flowers:
+ - rose
+ - sun flower
+ - tulip
+---
+flowers: [rose, tulip] 
+...

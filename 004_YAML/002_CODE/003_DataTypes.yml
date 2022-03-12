@@ -1,0 +1,58 @@
+### string
+myself: rabbit
+fruit: "apple"
+job: 'software engineer'
+
+# multiple line
+Bio: |
+hey i am rabbit.
+i am a student.
+
+# write a single line in a multiple line
+message: >
+this is 
+a single line
+in a multiple line
+# same as
+message: this is a single line in a multiple line 
+---
+
+### Data types
+number: 34   # (integer)
+marks: 57.64   # (float)
+booleanValue: No   # For false -> No, n, N, false, False, FALSE
+booleanValue: Yes   # For true -> Yes, y, Y, true, True, TRUE
+---
+
+### Specify the data types
+
+# integer specify
+zero : !!int 0
+positiveNumber : !!int -45
+myId : !!int 201001001164
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexaNum: !!int 0x45
+commaValue: !!int +540_000 # -> 540,000
+exponential numbers: 6.023E56
+
+# floating specify
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+# null specify
+surname: !!null Null # or null, NULL, ~
+~: this is a null key
+
+# dates and time specify
+date: !!timestamp 2002-12-14
+india time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10
+
+# string specify
+message: !!str this is a single line in a multiple line 
+
+# boolean value specify
+booleanValue: !!bool Yes

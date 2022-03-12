@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<School name="DPS" principal="Rabbit">
+    
+    <Students>
+
+        <Student_1>
+            <id>1164</id>
+            <name>"Raunak"</name>
+            <marks>94</marks>
+        </Student_1>
+
+        <Student_2>
+            <rno>1205</rno>
+            <name>"Misti"</name>
+            <marks>97</marks>
+        </Student_2>
+
+    </Students>
+
+</School>
+
